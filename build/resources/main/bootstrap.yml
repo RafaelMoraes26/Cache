@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: cache
+
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 60000 # opcional: timeout de conexão
+
+  cache:
+    type: redis
